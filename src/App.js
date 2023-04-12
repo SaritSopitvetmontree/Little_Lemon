@@ -1,5 +1,5 @@
 import {
-  Route, 
+  Route,
   Routes
 } from 'react-router-dom';
 import pages from './utils/pages';

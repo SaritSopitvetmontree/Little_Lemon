@@ -1,23 +1,23 @@
 
 const pages = new Map();
-pages.set('home', { name: 'Home', path: '/', anchorable: true });
-pages.set('about', { name: 'About', path: '/about', anchorable: true });
-pages.set('menu', { name: 'Menu', path: '/menu', anchorable: true });
+pages.set('home', { name: 'Home', path: '/Little_Lemon', anchorable: true });
+pages.set('about', { name: 'About', path: '/Little_Lemon/about', anchorable: true });
+pages.set('menu', { name: 'Menu', path: '/Little_Lemon/menu', anchorable: true });
 pages.set('bookings', { 
   name: 'Reservations', 
-  path: '/bookings', 
+  path: '/Little_Lemon/bookings', 
   anchorable: true 
 });
 pages.set('confirmedBooking', { 
   name: 'Confirmed Booking', 
-  path: '/confirmed-booking', 
+  path: '/Little_Lemon/confirmed-booking', 
   anchorable: false 
 });
 pages.set('orderOnline', { 
   name: 'Order Online', 
-  path: '/order-online', 
+  path: '/Little_Lemon/order-online', 
   anchorable: true 
 });
-pages.set('login', { name: 'Login', path: '/login', anchorable: true });
+pages.set('login', { name: 'Login', path: '/Little_Lemon/login', anchorable: true });
 
 export default pages;
